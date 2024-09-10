@@ -27,7 +27,7 @@ class BasePickerInput(DateTimeBaseInput):
         "showClose": True,
         "showClear": True,
         "showTodayButton": True,
-        "daysOfWeekDisabled": [],
+        "days_forbidden": [],
     }
 
     # source: https://github.com/tutorcruncher/django-bootstrap3-datetimepicker
